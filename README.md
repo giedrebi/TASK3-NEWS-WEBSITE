@@ -13,11 +13,12 @@ This is online news website.
 ### Launch procedure
 
 1. Go to the folder where you want clone repository, then open GIT BASH/terminal there, enter this line:
+
 `$ git clone https://github.com/giedrebi/TASK3-NEWS-WEBSITE.git`
 
 2. Open cloned project folder in VScode. 
 
-3. In VSCode open terminal `GitBash`, make sure that projetc's folder is chosen and install npm :
+3. In VSCode open terminal GitBash, make sure that projetc's folder is chosen and install npm :
 
 `$ npm install`
 

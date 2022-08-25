@@ -1,0 +1,193 @@
+/* LIGHT MODE */
+/* ---------------------- */
+
+body {
+    background-image: linear-gradient(to right,#f3e0d8 1%,#f9f4ed 5%, #f9f4ed 35%, #f3d4c7 50%, #644a4a 50%,#2a2a2a 55%, #2a2a2a 80%,#644a4a 100%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    color: #2a2a2a;
+    transition: all 1.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+
+header {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+    opacity: 0.9;
+}
+
+.leftnav {
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+
+.rightnav {
+    padding-top: 30px;
+    padding-right: 30px;
+    float: right;
+    display: flex;
+}
+
+a {
+    transition: 1.3s;
+    color: #2a2a2a;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a:hover {
+    color: #af695c;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a.nuxt-link-exact-active {
+    color: #af695c;
+}
+
+.page-content {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.page-title {
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+}
+
+/* article */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .container-item {
+    flex: 20%;
+    margin: 20px;
+    max-width: 40%;
+    border-bottom: 2px solid #eaeaea;
+  }
+  
+  .container-item:nth-child(3n+2) {
+    flex: 40%;
+  }
+  
+  .article-title {
+    font-size: 1.6rem;
+    opacity: 0.8;
+    transition: 1.3s;
+  }
+  
+  .article-description,
+  .article-author {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
+  img {
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.4s;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+  
+
+/* buttons */
+
+button {
+    background-color: transparent;
+    border: 2px solid #2a2a2a;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 7px;
+    transition: 1.3s;
+  }
+  
+  button:active,
+  button:hover,
+  button:focus,
+  button.selected {
+    color: #af695c;
+    border-color: #af695c;
+  }
+
+
+/* DARK MODE */
+/* ---------------------- */
+body.dark-mode {
+    /* background-image: linear-gradient(
+        65deg,
+        hsl(9deg 16% 23%) 0%,
+        hsl(8deg 14% 22%) 3%,
+        hsl(8deg 14% 22%) 7%,
+        hsl(10deg 11% 21%) 12%,
+        hsl(11deg 10% 21%) 19%,
+        hsl(12deg 10% 20%) 28%,
+        hsl(9deg 7% 19%) 39%,
+        hsl(10deg 6% 19%) 50%,
+        hsl(12deg 5% 18%) 59%,
+        hsl(0deg 2% 18%) 67%,
+        hsl(0deg 1% 17%) 73%,
+        hsl(0deg 0% 16%) 77%,
+        hsl(0deg 1% 18%) 81%,
+        hsl(15deg 4% 20%) 85%,
+        hsl(12deg 5% 22%) 87%,
+        hsl(8deg 7% 24%) 90%,
+        hsl(11deg 9% 25%) 92%,
+        hsl(9deg 10% 27%) 94%,
+        hsl(11deg 12% 29%) 95%,
+        hsl(9deg 13% 31%) 97%,
+        hsl(10deg 15% 32%) 98%,
+        hsl(8deg 17% 34%) 99%,
+        hsl(9deg 18% 36%) 100%
+      ); */
+    background-position: right top;
+    color: #f9f4ed;
+}
+
+/* header */
+
+.dark-mode a {
+    color: #f9f4ed;
+}
+
+.dark-mode a:hover {
+    color: #af695c;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.dark-mode a.nuxt-link-exact-active {
+    color: #af695c;
+}
+
+/* buttons */
+
+.dark-mode button:active,
+.dark-mode button:hover,
+.dark-mode button:focus {
+  color: #af695c;
+  border-color: #af695c;
+}
+
+.dark-mode button {
+  color: #f9f4ed;
+  border-color: #f9f4ed;
+  transition: 1.3s;
+}

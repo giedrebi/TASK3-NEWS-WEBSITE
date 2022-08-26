@@ -57,8 +57,8 @@ input[type="checkbox"].checkbox {
     position: relative;
     cursor: pointer;
     outline: none;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all 1.3s ease-in-out;
+    transition: all 1.3s ease-in-out;
 }
 
 input[type="checkbox"].checkbox:checked {
@@ -80,8 +80,8 @@ input[type="checkbox"].checkbox:after {
     -webkit-transform: scale(.7);
     transform: scale(.7);
     right: 0;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all 1.3s ease-in-out;
+    transition: all 1.3s ease-in-out;
 }
 
 input[type="checkbox"].checkbox:checked:after {

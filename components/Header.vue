@@ -3,7 +3,7 @@
   <div>
     <header>
       <nav class="leftnav">
-        <NuxtLink class="nav-item" to="/"><font-awesome-icon icon="fa-solid fa-bars-staggered" /></NuxtLink>
+        <NuxtLink class="nav-item" to="/"><font-awesome-icon icon="fa-solid fa-bars-staggered" class="icon"/></NuxtLink>
         <NuxtLink class="nav-item" to="/">Home</NuxtLink>
         <NuxtLink class="nav-item" to="/latestnews">Latest News</NuxtLink>
         <NuxtLink class="nav-item" to="/reviews">Reviews</NuxtLink>

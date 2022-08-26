@@ -22,32 +22,30 @@ header {
 }
 
 .leftnav {
+    display: flex;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 45px;
     float: left;
 }
 
 .rightnav {
-    padding-top: 30px;
-    padding-right: 30px;
-    float: right;
     display: flex;
+    padding-top: 30px;
+    padding-right: 45px;
+    float: right;
 }
-
+.icon {
+  font-size: 1.4rem;
+  margin-right: 35px;
+}
 a {
     transition: 1.3s;
     color: #2a2a2a;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
-a:hover {
-    color: #af695c;
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-a.nuxt-link-exact-active {
+a:hover, a.nuxt-link-exact-active {
     color: #af695c;
 }
 
